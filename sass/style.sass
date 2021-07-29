@@ -1,0 +1,264 @@
+/*fonts start
+@import url("fonts-add.css")
+/* fonts end
+
+/* normalize start
+@import url("normalize.css")
+/*normalize end
+//media
+
+//media
+html
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+body
+  font-family: "Poppins", sans-serif
+  font-weight: 500
+  font-style: normal
+  line-height: 16px
+
+.b-link
+  color: black
+  text-decoration: none
+
+.w-link
+  color: white
+  text-decoration: none
+
+.wrapper
+  max-width: 1440px
+  margin: 0 auto
+  padding-right: 24px
+  padding-left: 24px
+
+*
+  -webkit-box-sizing: inherit
+  box-sizing: inherit
+
+  &::before, &::after
+    -webkit-box-sizing: inherit
+    box-sizing: inherit
+
+/*box-sizing end
+/*start
+
+.main-screen
+  background-image: url(../img/main-screen-landing-background.png)
+  background-repeat: no-repeat
+  background-size: 1440px
+  background-position: center 24px
+  color: #FFFFFF
+  letter-spacing: 0.8px
+  position: relative
+  z-index: 3
+
+
+.top-shadow
+  position: relative
+
+.top-shadow::after
+  position: absolute
+  mix-blend-mode: normal
+  //background: red
+  background: linear-gradient(180deg, rgba(51, 51, 51, 0.9) 14.31%, rgba(27, 27, 27, 0.469176) 58.6%, rgba(0, 0, 0, 0.0001) 100%)
+  opacity: 0.19
+  top: 24px
+  left: 0
+  content: ""
+  width: 100%
+  height: 140px
+  z-index: 2
+
+.upper-header
+  padding: 4px 0
+  background-color: #ffffff
+  color: black
+  position: relative
+  font-size: 11px
+  border: 0 solid black
+  text-align: center
+
+.upper-header__delivering
+  font-weight: 500
+  line-height: 16px
+
+.upper-header__our-stores
+  position: absolute
+  right: 0
+  font-size: 10px
+  line-height: 15px
+  letter-spacing: 0.083px
+
+
+.middle-header
+
+  display: flex
+  justify-content: space-between
+  padding-top: 5px
+  position: relative
+  z-index: 3
+  //align-items: end
+
+.middle-header__logo
+  font-family: Poppins, sans-serif
+  font-style: normal
+  font-weight: bold
+  font-size: 38px
+  line-height: 57px
+  width: 25%
+  margin-top: 10px
+  letter-spacing: 0.95px
+  color: #FFFFFF
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.08)
+
+.main-screen-search
+  width: 50%
+  text-align: center
+  margin-top: 20px
+
+.main-screen-search__inner
+  position: relative
+
+.main-screen-search__icon
+  position: absolute
+  top: 18px
+  right: 70px
+
+
+.main-screen-search__input
+  background: rgba(247, 247, 247, .24)
+  mix-blend-mode: normal
+  border-radius: 3px
+  box-shadow: none
+  border: none
+  padding: 16px
+  width: 80%
+  color: #fff
+  font-weight: 500
+  font-size: 14px
+  line-height: 16px
+  letter-spacing: 0.8px
+
+
+.main-screen-search__icon
+  position: absolute
+  right: 10%
+  top: 15px
+  cursor: pointer
+
+.input-wrap
+  position: relative
+
+.main-screen-search__input::placeholder
+  color: #fff
+  font-weight: 500
+  font-size: 11px
+  line-height: 16px
+  letter-spacing: 0.8px
+
+
+.authorization
+  width: 25%
+  text-align: right
+  font-weight: 600
+  font-size: 11px
+  line-height: 16px
+  letter-spacing: 1px
+  margin-top: 19px
+
+.authorization__text
+  padding-right: 10px
+  font-weight: 600
+  font-size: 11px
+  line-height: 16px
+  text-align: right
+  letter-spacing: 1px
+
+
+.menu-header ul
+  display: flex
+  justify-content: center
+  margin-top: 25px
+  position: relative
+  z-index: 30
+
+
+.menu-header__item
+  margin-right: 31px
+  text-transform: uppercase
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.12)
+  font-weight: 600
+  font-size: 13px
+  line-height: 19px
+  letter-spacing: 1px
+
+.menu-header__item:last-of-type
+  margin-right: 0
+
+.main-screen-center
+  display: flex
+  justify-content: center
+  align-items: center
+  padding-top: 204px
+  padding-bottom: 247px
+
+.main-screen-center h1
+  font-size: 60px
+  font-weight: bold
+  line-height: 90px
+  letter-spacing: 0.05px
+
+
+
+
+
+
+
+  //--------- burger-and-search start
+.burger-and-search-forMedia
+  display: none
+
+.burger-fullmenu
+  position: absolute
+  top: 70px
+  left: 0
+  color: black
+  background-color: white
+  padding-top: 15px
+  font-family: Poppins, sans-serif
+  font-style: normal
+  font-weight: 600
+  font-size: 11px
+  line-height: 16px
+  letter-spacing: 1.2px
+  text-transform: uppercase
+
+.burger-fullmenu li
+  padding: 16px 130px 16px 13px
+
+.burger-fullmenu_disp-none
+  display: none
+
+.burger-and-search
+  position: absolute
+  top: 35px
+  left: 20px
+  display: none
+
+.header__burgerIco.header__burgerIco_act:before
+  transform: rotate(45deg)
+  top: 8px
+
+.header__burgerIco.header__burgerIco_act:after
+  transform: rotate(-45deg)
+  bottom: 9px
+
+.header__burgerIco.header__burgerIco_act span
+  transform: scale(0)
+
+
+  // --------- burger-and-search end
+@import url("promo-section.css")
+@import url("footer.css")
+@import url("media.css")

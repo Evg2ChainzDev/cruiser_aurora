@@ -1,0 +1,201 @@
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .footer-wrapper {
+    padding: 26px 150px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .footer-wrapper {
+    padding: 26px 80px !important;
+  }
+}
+@media screen and (max-width: 850px) {
+  .main-screen-center h1 {
+    font-size: 45px !important;
+  }
+
+  .footer-wrapper {
+    padding: 26px 40px !important;
+  }
+}
+@media screen and (max-width: 750px) {
+  .main-screen-center h1 {
+    font-size: 35px !important;
+  }
+
+  .footer-wrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+
+  .footer-column ul li {
+    display: none;
+  }
+
+  .footer-column ul li:first-of-type {
+    display: block;
+    text-align: left;
+    padding: 8px 0 8px 15px;
+    margin: -8px -35px;
+  }
+
+  .footer-column-ul {
+    position: relative;
+  }
+
+  .footer-column-ul .footer-column__title__arrow {
+    position: absolute;
+    right: -10px;
+    top: 10px;
+  }
+
+  .footer-column__title__payments {
+    content: "Payments & Delivery";
+  }
+
+  .footer-column__title__arrow {
+    display: block !important;
+  }
+
+  .footer-column__title__br-payments {
+    display: none;
+  }
+
+  .menu-header {
+    display: none;
+  }
+
+  #menu, .middle-header__burger {
+    display: block !important;
+  }
+
+  .footer-column-ul li:not(:first-child) {
+    text-align: left;
+    padding: 15px 0 5px 0;
+    margin-left: -20px;
+  }
+
+  .social-column-ul li {
+    display: block !important;
+    text-align: center !important;
+    margin: -20px 0 0 -50px;
+  }
+
+  .social-column-ul li:first-child {
+    display: none !important;
+  }
+
+  .social-column-ul .footer-column__title__arrow {
+    display: none !important;
+  }
+
+  .footer-wrapper {
+    padding-bottom: 0 !important;
+  }
+
+  .wrapper.copyright {
+    margin-top: -15px;
+  }
+
+  .main-screen-search {
+    display: none !important;
+  }
+
+  .middle-header__logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .authorization {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+
+  .burger-and-search {
+    display: block !important;
+  }
+
+  .burger-and-search__wrapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .header__burgerIco {
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 20px;
+  }
+
+  .header__search {
+    margin-left: 15px;
+  }
+
+  .header__burgerIco span {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    top: 8px;
+  }
+
+  .authorization__text {
+    display: none;
+  }
+
+  .header__burgerIco:before, .header__burgerIco:after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+  }
+
+  .header__burgerIco:before {
+    top: 0;
+  }
+
+  .header__burgerIco:after {
+    bottom: 1px;
+  }
+
+  .footer-column__title {
+    position: relative;
+  }
+
+  .footer-column__title:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #E1E0E1;
+    position: absolute;
+    left: -8px;
+    top: 34px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .main-screen-center h1 {
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-screen-center h1 {
+    display: none;
+  }
+}
