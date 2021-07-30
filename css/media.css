@@ -12,7 +12,7 @@
     padding: 26px 80px !important;
   }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 855px) {
   .main-screen-center h1 {
     font-size: 45px !important;
   }
@@ -175,11 +175,11 @@
     bottom: 1px;
   }
 
-  .footer-column__title {
+  .footer-column__title_underlined {
     position: relative;
   }
 
-  .footer-column__title:after {
+  .footer-column__title_underlined:after {
     content: "";
     width: 100%;
     height: 1px;
@@ -187,6 +187,10 @@
     position: absolute;
     left: -8px;
     top: 34px;
+  }
+
+  .footer-column__title_display-none {
+    display: none;
   }
 }
 @media screen and (max-width: 550px) {
