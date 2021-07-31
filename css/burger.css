@@ -4,8 +4,8 @@
 
 .burger-fullmenu {
   position: absolute;
-  top: 70px;
-  left: 0;
+  top: 80px;
+  left: -20px;
   color: black;
   background-color: white;
   padding-top: 15px;
@@ -16,10 +16,11 @@
   line-height: 16px;
   letter-spacing: 1.2px;
   text-transform: uppercase;
+  padding-bottom: 30px;
 }
 
 .burger-fullmenu li {
-  padding: 16px 170px 16px 13px;
+  padding: 16px 210px 16px 13px;
 }
 
 .burger-fullmenu_disp-none {
