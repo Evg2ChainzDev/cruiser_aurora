@@ -35,6 +35,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.8px !important;
 }
 
 .promo-section-inner__promo-text {
@@ -45,42 +48,42 @@
 }
 
 .promo-section-form__input {
-  font-size: 11px;
-  line-height: 16px;
-  letter-spacing: 0.8px;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.8px !important;
   padding: 8px 203px 7px 11px;
   width: 334px;
   height: 32px;
 }
 
 .promo-section-form__input::-webkit-input-placeholder {
-  font-size: 11px;
-  line-height: 16px;
-  letter-spacing: 0.8px;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.8px !important;
 }
 
 .promo-section-form__input::-moz-placeholder {
-  font-size: 11px;
-  line-height: 16px;
-  letter-spacing: 0.8px;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.8px !important;
 }
 
 .promo-section-form__input:-ms-input-placeholder {
-  font-size: 11px;
-  line-height: 16px;
-  letter-spacing: 0.8px;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.8px !important;
 }
 
 .promo-section-form__input::-ms-input-placeholder {
-  font-size: 11px;
-  line-height: 16px;
-  letter-spacing: 0.8px;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.8px !important;
 }
 
 .promo-section-form__input::placeholder {
-  font-size: 11px;
-  line-height: 16px;
-  letter-spacing: 0.8px;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.8px !important;
 }
 
 .promo-section-form__button {

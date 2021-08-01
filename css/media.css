@@ -26,6 +26,11 @@
     font-size: 35px !important;
   }
 
+  .main-screen-basket__icon {
+    right: -20px;
+    top: -5px;
+  }
+
   .footer-wrapper {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
