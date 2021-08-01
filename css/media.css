@@ -220,8 +220,21 @@
     text-align: center !important;
     width: 170px;
   }
-}
-@media screen and (max-width: 450px) {
+
+  .main-screen {
+    background-size: 1200px !important;
+    background-position: left 62% bottom 123% !important;
+  }
+
+  .main-screen {
+    margin-top: -24px !important;
+  }
+
+  .burger-and-search {
+    top: 50px;
+    left: 0;
+  }
+
   .main-screen-center h1 {
     display: none;
   }
@@ -230,26 +243,12 @@
     display: none;
   }
 
-  .main-screen {
-    margin-top: -24px !important;
-  }
-
   .middle-header__logo {
     margin-top: 25px;
-  }
-
-  .burger-and-search {
-    top: 50px;
-    left: 0;
   }
 
   .authorization {
     top: 28px;
     right: 0;
-  }
-
-  .main-screen {
-    background-size: 1200px !important;
-    background-position: left 62% bottom 123% !important;
   }
 }
