@@ -44,6 +44,10 @@ body {
   transition: 1s;
 }
 
+.b-link:focus {
+  text-decoration: underline;
+}
+
 .w-link:focus {
   color: #000000 !important;
   -webkit-transition: 1s;
